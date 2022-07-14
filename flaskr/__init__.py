@@ -11,7 +11,7 @@ from flask import (
 )
 import requests
 
-from models import setup_db, db, Users, Countries
+from models.models import setup_db, db, Users, Countries
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 from flask_cors import CORS
